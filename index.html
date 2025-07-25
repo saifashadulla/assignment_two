@@ -8,19 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-white">
-    <header class="ml-36 mr-36 mt-7 ">
+    <header class="container mx-auto mt-7 ">
         <!-- Nav section start -->
-
-        
-        <nav class=" flex md:flex-wrap justify-between ">
+        <nav class=" flex ms:flex-wrap justify-between items-center ">
             <div>
-                <img class="" src="./assets/logo.png" alt="">
+                <img class=" w-full h-full" src="./assets/logo.png" alt="">
             </div>
-            <ul class="lg:flex md:flex items-center gap-12">
+            <ul class="flex lg:flex md:flex items-center gap-12">
                 <div class="flex gap-[48px]">
-                    <li class="font-bold "><a href=""></a>Home</li>
-                    <li class="text-[#8987A1]"><a href=""></a>Shop</li>
-                    <li class="text-[#8987A1]"><a href=""></a>About Us</li>
+                    <li class="font-bold hidden sm:block"><a href=""></a>Home</li>
+                    <li class="text-[#8987A1] hidden sm:block"><a href=""></a>Shop</li>
+                    <li class="text-[#8987A1] hidden sm:block"><a href=""></a>About Us</li>
                 </div>
                 
                 <div>
@@ -35,9 +33,9 @@
        
     </header>
 
-    <main>
+    <main class="">
      <!-- Banner Section Start -->
-            <section class="w-10/12 h-[461px] items-end m-auto mt-[150px] lg:flex   ">
+            <section class="container sm:h-[461px] md:h-[461px] items-end m-auto mt-[150px] lg:flex   ">
                  <div>
                     <h1 class="text-[#000000] font-bold text-[65px]">ALWAYS <span class="text-[#E95A08] font-bold">FRESH</span></h1>
                     <h1 class="text-[#E95A08] font-bold text-[65px]">FLOWERS</h1>
@@ -50,7 +48,7 @@
             </section>
     <!-- banner section end -->
         <!-- Our plant Section started-->
-            <section class="w-10/12 h-10/12 m-auto mt-[119px]">
+            <section class="container h-10/12 m-auto mt-[119px]">
                 <div class="text-center w-10/12 h-[138px]">
                     <div>
                         <h1 class=" text-[50px] font-bold "><span class="text-[#E95A08] font-bold text-[50px] pl-[25%] ">Our</span> Plant</h1>
@@ -62,7 +60,7 @@
                 </div>
 
                           
-                <div class="grid lg:grid-cols-4 md:grid-cols-2 ml-[80px]">
+                <div class="container w-full mt-[110px]  grid lg:grid-cols-4 md:grid-cols-2 ml-[80px]">
                      
                     <div class=" w-[270px] mt-[50px] text-center">
                         <img src="./assets/sample-flower-image.png" alt="">
@@ -125,7 +123,7 @@
             </section>
 
             <section>
-                <div class="w-10/12  m-auto grid sm:grid-cols-2 md:grid-cols-2 text-center justify-between mt-[210px] ">
+                <div class="container  m-auto grid sm:grid-cols-2 md:grid-cols-2 text-center justify-between mt-[210px] ">
                     <div class="w-[540px] h-[597px] ml-[82px]">
                         <img class="#" src="./assets/flower-store.png" alt="">
                     </div>
@@ -153,7 +151,7 @@
     <!-- Latest deals Section -->
             <section>
                 <div class="sm:grid-cols-2">
-                    <div class="border-2 w-[1440px] h-[138px] m-auto mt-[134px] font-[Noto Serif] text-[50px] font-bold text-center">
+                    <div class=" container h-[138px] m-auto mt-[134px] font-[Noto Serif] text-[50px] font-bold text-center">
                         <h1 class=""> <span class="text-[#E95A08]"> Latest </span> Deals</h1>
                         <p class="text-[22px] font-normal font-[inter]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
                     </div>
@@ -162,8 +160,8 @@
     <!-- Latest deals section end -->
 
     <!-- Latest deals card section Started -->
-            <section class="relative w-[1440px] h-[425px] m-auto mt-[120px] ">
-                <div class=" flex  ml-[110px]  gap-14 m-auto">
+            <section class="relative container h-[425px] m-auto mt-[120px] ">
+                <div class=" flex   ml-[110px]  gap-14 m-auto">
                     <div class="">
                         <img class="rounded-[22px]" src="./assets/deal-bloom.png" alt="">
                         <div class="absolute top-0 bottom-0 text-lime-100 font-bold font-[nato serif] mt-[6%] ml-[7%] text-center">
@@ -195,8 +193,8 @@
 
      <!-- Colorful bunch section start -->
              <section class=" mt-[120px] ">
-                <div class="relative justify-center ">
-                    <img class="w-[2000px] h-[533px] " src="./assets/news-letter-bg.png" alt="">
+                <div class=" relative justify-center  ">
+                    <img class="m-auto h-[533px] " src="./assets/news-letter-bg.png" alt="">
                     <div class="text-5xl absolute top-50 left-130 bottom-0 right-0 w-[800px] h-[68px] items-center justify-center ">
 
                         <h1 class="text-white text-[50px] font-bold ml-[100px] ">Join the colorful Bunch</h1>
@@ -218,8 +216,8 @@
              </section>
      <!-- Colorful bunch section end -->
              <footer>
-            <section class=" w-[1120px] h-[248px] m-auto mt-[50px] ">
-                <div class="flex justify-between">
+            <section class=" container sm:h-[248px]  m-auto mt-[50px] ">
+                <div class="flex justify-between items-center">
                     <div class=" w-[359px] h-[174px] text-[22px] font-[inter] ml-[5px]">
                     <img src="./assets/logo.png" alt="">
                     <p class="pt-[25px]">Indulge your senses with the <br> beauty and fragrance of our fresh <br>
